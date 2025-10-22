@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="space-y-8 text-white">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                E aí, eu sou o <span className="text-[#e50914]">Gustavo Suzuki</span> 👋
+                E aí, eu sou o <span className="text-[#e50914]">Gustavo Suzuki</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
                 Desenvolvedor focado em transformar ideias em experiências digitais reais.
