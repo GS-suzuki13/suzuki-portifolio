@@ -48,7 +48,7 @@ export default function Footer() {
 
           <div className="text-center">
             <p className="text-gray-400">
-              © 2025 Gustavo Suzuki. Todos os direitos reservados.
+              © 2025 Gustavo Suzuki.
             </p>
           </div>
         </div>
