@@ -12,7 +12,7 @@ export default function About() {
 
           <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 md:p-12 rounded-2xl border border-white/10 shadow-xl">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              Tenho 24 anos, sou de Blumenau-SC e sempre fui apaixonado por tecnologia.
+              Tenho 24 anos, moro em Blumenau-SC e sempre fui apaixonado por tecnologia.
               Trabalho com desenvolvimento de sistemas, uso duas telas no dia a dia e curto
               resolver problemas de forma prática e criativa. Sou comunicativo, competitivo
               e gosto de aprender coisas novas. Além do código, curto skate, futebol, jogar
