@@ -4,12 +4,12 @@ const socialLinks = [
   {
     platform: 'Instagram',
     icon: Instagram,
-    link: 'https://instagram.com/gustavosuzuki'
+    link: 'https://instagram.com/oreal.suzuki'
   },
   {
     platform: 'LinkedIn',
     icon: Linkedin,
-    link: 'https://www.linkedin.com/in/gustavosuzuki'
+    link: 'https://www.linkedin.com/in/gustavo-suzuki-858189163/'
   },
   {
     platform: 'WhatsApp',
@@ -19,7 +19,7 @@ const socialLinks = [
   {
     platform: 'GitHub',
     icon: Github,
-    link: 'https://github.com/gustavosuzuki'
+    link: 'https://github.com/GS-suzuki13'
   }
 ];
 
