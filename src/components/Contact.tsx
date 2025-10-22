@@ -16,7 +16,7 @@ export default function Contact() {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <a
-              href="https://wa.me/5547999999999"
+              href="https://wa.me/5547997609807"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-gradient-to-br from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 p-8 rounded-2xl transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-green-600/50"
