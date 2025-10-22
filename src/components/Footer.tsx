@@ -14,7 +14,7 @@ const socialLinks = [
   {
     platform: 'WhatsApp',
     icon: MessageCircle,
-    link: 'https://wa.me/5547999999999'
+    link: 'https://wa.me/5547997609807'
   },
   {
     platform: 'GitHub',
