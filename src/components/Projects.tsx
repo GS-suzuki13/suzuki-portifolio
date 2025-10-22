@@ -30,8 +30,12 @@ export default function Projects() {
                 key={index}
                 className="group bg-gradient-to-br from-[#1a1a1a] to-[#141414] rounded-2xl border border-white/10 hover:border-[#e50914] transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#e50914]/20 overflow-hidden"
               >
-                <div className="aspect-video bg-gradient-to-br from-[#e50914]/20 to-[#141414] flex items-center justify-center border-b border-white/10">
-                  <div className="text-6xl">🎬</div>
+                <div className="aspect-video bg-gradient-to-br from-[#e50914]/20 to-[#141414] flex items-center justify-center border-b border-white/10 overflow-hidden">
+                  <img
+                    src="/image.png"
+                    alt="Netflix Suzuki Preview"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 <div className="p-8 space-y-4">
