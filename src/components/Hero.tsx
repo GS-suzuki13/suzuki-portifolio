@@ -40,7 +40,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-[#e50914] rounded-full blur-3xl opacity-20 animate-pulse" />
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[#e50914] shadow-2xl shadow-[#e50914]/50 transform hover:scale-105 transition-transform duration-300">
               <img
-                src="/IMG_20251015_180027-removebg-preview.jpg"
+                src="/profile.png"
                 alt="Gustavo Suzuki"
                 className="w-full h-full object-cover"
               />
