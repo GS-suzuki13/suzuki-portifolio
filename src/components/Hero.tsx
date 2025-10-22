@@ -26,7 +26,7 @@ export default function Hero() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/assets/cv-gustavo-suzuki.pdf"
+                href="/assets/gustavo-suzuki.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 backdrop-blur-sm border border-white/20"
               >
