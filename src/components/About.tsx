@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-12">
-            <User className="w-8 h-8 text-[#e50914]" />
+            <User className="w-8 h-8 text-[#0ea5e9]" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">Sobre mim</h2>
           </div>
 
