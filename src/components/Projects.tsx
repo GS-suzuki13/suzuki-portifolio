@@ -6,7 +6,7 @@ const projects = [
     description: 'Um clone funcional da interface da Netflix com destaque para responsividade e consumo de API para exibição de filmes e séries.',
     technologies: ['React', 'Next.js', 'Tailwind CSS', 'TMDB API'],
     liveUrl: 'https://netflix-suzuki.vercel.app/',
-    githubUrl: 'https://github.com/seuusuario/netflix-suzuki'
+    githubUrl: 'https://github.com/GS-suzuki13/Netflix_Demo'
   }
 ];
 

@@ -12,12 +12,15 @@ export default function About() {
 
           <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 md:p-12 rounded-2xl border border-white/10 shadow-xl">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              Tenho 22 anos, sou de Blumenau-SC e sempre fui apaixonado por tecnologia.
-              Trabalho com desenvolvimento de sistemas, uso duas telas no dia a dia e curto
-              resolver problemas de forma prática e criativa. Sou comunicativo, competitivo
-              e gosto de aprender coisas novas. Além do código, curto skate, futebol, jogar
-              sinuca, sair com os amigos e cuidar dos meus dois cachorros. Estou em busca
-              de oportunidades para crescer na área tech e causar impacto real com meus projetos.
+              Tenho 24 anos, sou de Blumenau-SC e sempre fui apaixonado por tecnologia.
+              Atuo na área de desenvolvimento de sistemas, busco sempre otimizar meu fluxo de trabalho e encontrar
+              soluções práticas e criativas para diferentes desafios. Sou uma pessoa comunicativa,
+              competitiva e movida por aprendizado constante.
+
+              Fora do ambiente profissional, gosto de andar de skate, jogar futebol,
+              praticar sinuca, passar tempo com amigos e cuidar dos meus dois cachorros.
+              Estou em busca de oportunidades para crescer na área de tecnologia,
+              contribuir com equipes inovadoras e gerar impacto real por meio dos meus projetos e habilidades técnicas.
             </p>
           </div>
         </div>
