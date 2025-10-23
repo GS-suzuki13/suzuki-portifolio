@@ -3,7 +3,7 @@ import { ArrowRight, Download } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0f0f0f] via-[#141414] to-[#1a1a1a]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(229,9,20,0.1),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(14,165,233,0.1),transparent_50%)]" />
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projetos"
-                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#0369a1] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
+                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
               >
                 Ver Projetos
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
