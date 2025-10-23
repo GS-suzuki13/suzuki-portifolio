@@ -13,7 +13,7 @@ export default function Differentials() {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-3 mb-12">
-            <Sparkles className="w-8 h-8 text-[#e50914]" />
+            <Sparkles className="w-8 h-8 text-[#0ea5e9]" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">O que me diferencia</h2>
           </div>
 
@@ -21,10 +21,10 @@ export default function Differentials() {
             {differentials.map((item, index) => (
               <div
                 key={index}
-                className="group bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 rounded-2xl border border-white/10 hover:border-[#e50914] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-[#e50914]/20"
+                className="group bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 rounded-2xl border border-white/10 hover:border-[#0ea5e9] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-[#0ea5e9]/20"
               >
                 <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-[#e50914] flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" />
+                  <CheckCircle2 className="w-6 h-6 text-[#0ea5e9] flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" />
                   <p className="text-gray-300 text-lg leading-relaxed">{item}</p>
                 </div>
               </div>
