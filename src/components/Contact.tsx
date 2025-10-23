@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Send className="w-8 h-8 text-[#e50914]" />
+            <Send className="w-8 h-8 text-[#0ea5e9]" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">Vamos conversar?</h2>
           </div>
 
@@ -28,7 +28,11 @@ export default function Contact() {
 
             <a
               href="mailto:gustavosuzuki3@gmail.com"
+<<<<<<< HEAD
               className="group bg-gradient-to-br from-[#e50914] to-[#b8070f] hover:from-[#ff1020] hover:to-[#e50914] p-8 rounded-2xl transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-[#e50914]/50"
+=======
+              className="group bg-gradient-to-br from-[#0ea5e9] to-[#1e40af] hover:from-[#38bdf8] hover:to-[#0ea5e9] p-8 rounded-2xl transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-[#0ea5e9]/50"
+>>>>>>> b0493e1b1429284cf5a18e6da9b383836b503c6b
             >
               <Mail className="w-12 h-12 text-white mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="text-xl font-bold text-white mb-2">E-mail</h3>

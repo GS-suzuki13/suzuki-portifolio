@@ -6,12 +6,13 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-12">
-            <User className="w-8 h-8 text-[#e50914]" />
+            <User className="w-8 h-8 text-[#0ea5e9]" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">Sobre mim</h2>
           </div>
 
           <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-8 md:p-12 rounded-2xl border border-white/10 shadow-xl">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+<<<<<<< HEAD
               Tenho 24 anos, sou de Blumenau-SC e sempre fui apaixonado por tecnologia.
               Atuo na área de desenvolvimento de sistemas, busco sempre otimizar meu fluxo de trabalho e encontrar
               soluções práticas e criativas para diferentes desafios. Sou uma pessoa comunicativa,
@@ -21,6 +22,15 @@ export default function About() {
               praticar sinuca, passar tempo com amigos e cuidar dos meus dois cachorros.
               Estou em busca de oportunidades para crescer na área de tecnologia,
               contribuir com equipes inovadoras e gerar impacto real por meio dos meus projetos e habilidades técnicas.
+=======
+              Tenho 24 anos, moro em Blumenau-SC e sempre fui apaixonado por tecnologia.
+              Trabalho com desenvolvimento de sistemas, uso duas telas no dia a dia e curto
+              resolver problemas de forma prática e criativa. Sou comunicativo, competitivo
+              e gosto de aprender coisas novas. Além do código, curto skate, futebol, jogar
+              sinuca, sair com os amigos e cuidar dos meus dois cachorros. Estou em busca
+              de oportunidades para crescer na área tech, criar projetos únicos,
+              desenvolver suas ideias e causar impacto real com meus projetos.
+>>>>>>> b0493e1b1429284cf5a18e6da9b383836b503c6b
             </p>
           </div>
         </div>

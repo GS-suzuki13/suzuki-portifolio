@@ -3,14 +3,14 @@ import { ArrowRight, Download } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0f0f0f] via-[#141414] to-[#1a1a1a]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(229,9,20,0.1),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(14,165,233,0.1),transparent_50%)]"/>
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-white">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                E aí, eu sou o <span className="text-[#e50914]">Gustavo Suzuki</span> 👋
+                Olá, eu sou o <span className="text-[#0ea5e9]">Gustavo Suzuki</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
                 Desenvolvedor focado em transformar ideias em experiências digitais reais.
@@ -20,13 +20,13 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projetos"
-                className="group inline-flex items-center gap-2 bg-[#e50914] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#e50914]/50"
+                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
               >
                 Ver Projetos
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/assets/cv-gustavo-suzuki.pdf"
+                href="/assets/gustavo-suzuki.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 backdrop-blur-sm border border-white/20"
               >
@@ -37,11 +37,13 @@ export default function Hero() {
           </div>
 
           <div className="relative flex items-center justify-center">
-            <div className="absolute inset-0 bg-[#e50914] rounded-full blur-3xl opacity-20 animate-pulse" />
-            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[#e50914] shadow-2xl shadow-[#e50914]/50 transform hover:scale-105 transition-transform duration-300">
-              <div className="w-full h-full bg-gradient-to-br from-[#e50914]/20 to-[#141414] flex items-center justify-center">
-                <div className="text-8xl">👨‍💻</div>
-              </div>
+            <div className="absolute inset-0 bg-[#0ea5e9] rounded-full blur-3xl opacity-20 animate-pulse" />
+            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[#0ea5e9] shadow-2xl shadow-[#0ea5e9]/50 transform hover:scale-105 transition-transform duration-300">
+              <img
+                src="/profile.png"
+                alt="Gustavo Suzuki"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

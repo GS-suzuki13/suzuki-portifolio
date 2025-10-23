@@ -4,7 +4,11 @@ const socialLinks = [
   {
     platform: 'Instagram',
     icon: Instagram,
+<<<<<<< HEAD
     link: 'https://www.instagram.com/oreal.suzuki/'
+=======
+    link: 'https://instagram.com/oreal.suzuki'
+>>>>>>> b0493e1b1429284cf5a18e6da9b383836b503c6b
   },
   {
     platform: 'LinkedIn',
@@ -37,7 +41,7 @@ export default function Footer() {
                   href={social.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group bg-white/5 hover:bg-[#e50914] p-4 rounded-full transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-[#e50914]/50"
+                  className="group bg-white/5 hover:bg-[#0ea5e9] p-4 rounded-full transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
                   aria-label={social.platform}
                 >
                   <Icon className="w-6 h-6 text-white" />
@@ -48,7 +52,7 @@ export default function Footer() {
 
           <div className="text-center">
             <p className="text-gray-400">
-              © 2025 Gustavo Suzuki. Todos os direitos reservados.
+              © 2025 Gustavo Suzuki.
             </p>
           </div>
         </div>
