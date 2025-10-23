@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="space-y-8 text-white">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                E aí, eu sou o <span className="text-[#e50914]">Gustavo Suzuki</span>
+                Olá, eu sou o <span className="text-[#0ea5e9]">Gustavo Suzuki</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
                 Desenvolvedor focado em transformar ideias em experiências digitais reais.
@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projetos"
-                className="group inline-flex items-center gap-2 bg-[#e50914] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#e50914]/50"
+                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
               >
                 Ver Projetos
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -37,8 +37,8 @@ export default function Hero() {
           </div>
 
           <div className="relative flex items-center justify-center">
-            <div className="absolute inset-0 bg-[#e50914] rounded-full blur-3xl opacity-20 animate-pulse" />
-            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[#e50914] shadow-2xl shadow-[#e50914]/50 transform hover:scale-105 transition-transform duration-300">
+            <div className="absolute inset-0 bg-[#0ea5e9] rounded-full blur-3xl opacity-20 animate-pulse" />
+            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[#0ea5e9] shadow-2xl shadow-[#0ea5e9]/50 transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/profile.png"
                 alt="Gustavo Suzuki"
