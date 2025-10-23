@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Send className="w-8 h-8 text-[#e50914]" />
+            <Send className="w-8 h-8 text-[#0ea5e9]" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">Vamos conversar?</h2>
           </div>
 
