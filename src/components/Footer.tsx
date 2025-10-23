@@ -37,7 +37,7 @@ export default function Footer() {
                   href={social.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group bg-white/5 hover:bg-[#e50914] p-4 rounded-full transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-[#e50914]/50"
+                  className="group bg-white/5 hover:bg-[#0ea5e9] p-4 rounded-full transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
                   aria-label={social.platform}
                 >
                   <Icon className="w-6 h-6 text-white" />
