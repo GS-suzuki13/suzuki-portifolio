@@ -16,7 +16,7 @@ export default function Projects() {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-3 mb-6">
-            <Folder className="w-8 h-8 text-[#e50914]" />
+            <Folder className="w-8 h-8 text-[#0ea5e9]" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">Projetos</h2>
           </div>
 
@@ -28,9 +28,9 @@ export default function Projects() {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="group bg-gradient-to-br from-[#1a1a1a] to-[#141414] rounded-2xl border border-white/10 hover:border-[#e50914] transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#e50914]/20 overflow-hidden"
+                className="group bg-gradient-to-br from-[#1a1a1a] to-[#141414] rounded-2xl border border-white/10 hover:border-[#0ea5e9] transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#0ea5e9]/20 overflow-hidden"
               >
-                <div className="aspect-video bg-gradient-to-br from-[#e50914]/20 to-[#141414] flex items-center justify-center border-b border-white/10 overflow-hidden">
+                <div className="aspect-video bg-gradient-to-br from-[#0ea5e9]/20 to-[#141414] flex items-center justify-center border-b border-white/10 overflow-hidden">
                   <img
                     src="/image.png"
                     alt="Netflix Suzuki Preview"
@@ -39,7 +39,7 @@ export default function Projects() {
                 </div>
 
                 <div className="p-8 space-y-4">
-                  <h3 className="text-2xl font-bold text-white group-hover:text-[#e50914] transition-colors">
+                  <h3 className="text-2xl font-bold text-white group-hover:text-[#0ea5e9] transition-colors">
                     {project.name}
                   </h3>
 
@@ -51,7 +51,7 @@ export default function Projects() {
                     {project.technologies.map((tech, techIndex) => (
                       <span
                         key={techIndex}
-                        className="px-3 py-1 bg-[#e50914]/20 text-[#e50914] rounded-full text-sm font-medium border border-[#e50914]/30"
+                        className="px-3 py-1 bg-[#0ea5e9]/20 text-[#0ea5e9] rounded-full text-sm font-medium border border-[#0ea5e9]/30"
                       >
                         {tech}
                       </span>
@@ -63,7 +63,7 @@ export default function Projects() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-white hover:text-[#e50914] transition-colors font-medium"
+                      className="flex items-center gap-2 text-white hover:text-[#0ea5e9] transition-colors font-medium"
                     >
                       <ExternalLink className="w-5 h-5" />
                       Ver Projeto
@@ -72,7 +72,7 @@ export default function Projects() {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-white hover:text-[#e50914] transition-colors font-medium"
+                      className="flex items-center gap-2 text-white hover:text-[#0ea5e9] transition-colors font-medium"
                     >
                       <Github className="w-5 h-5" />
                       Código
