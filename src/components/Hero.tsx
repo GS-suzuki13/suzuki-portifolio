@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projetos"
-                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
+                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#0369a1] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
               >
                 Ver Projetos
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
