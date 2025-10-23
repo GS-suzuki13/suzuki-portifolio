@@ -28,7 +28,7 @@ export default function Contact() {
 
             <a
               href="mailto:gustavosuzuki3@gmail.com"
-              className="group bg-gradient-to-br from-[#0ea5e9] to-[#b8070f] hover:from-[#ff1020] hover:to-[#0ea5e9] p-8 rounded-2xl transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-[#0ea5e9]/50"
+              className="group bg-gradient-to-br from-[#0ea5e9] to-[#1e40af] hover:from-[#38bdf8] hover:to-[#0ea5e9] p-8 rounded-2xl transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-[#0ea5e9]/50"
             >
               <Mail className="w-12 h-12 text-white mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="text-xl font-bold text-white mb-2">E-mail</h3>
