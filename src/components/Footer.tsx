@@ -4,11 +4,7 @@ const socialLinks = [
   {
     platform: 'Instagram',
     icon: Instagram,
-<<<<<<< HEAD
     link: 'https://www.instagram.com/oreal.suzuki/'
-=======
-    link: 'https://instagram.com/oreal.suzuki'
->>>>>>> b0493e1b1429284cf5a18e6da9b383836b503c6b
   },
   {
     platform: 'LinkedIn',
