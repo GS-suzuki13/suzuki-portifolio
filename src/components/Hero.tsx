@@ -1,4 +1,5 @@
 import { ArrowRight, Download } from 'lucide-react';
+import PDF from '../assets/gustavo-suzuki.pdf'
 
 export default function Hero() {
   return (
@@ -20,13 +21,13 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projetos"
-                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#b8070f] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
+                className="group inline-flex items-center gap-2 bg-[#0ea5e9] hover:bg-[#0284c7] text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-[#0ea5e9]/50"
               >
                 Ver Projetos
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/assets/gustavo-suzuki.pdf"
+                href={PDF}
                 download
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 backdrop-blur-sm border border-white/20"
               >
