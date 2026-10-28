@@ -2,33 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+/* Registrada para poder transicionar a troca de cor entre projetos */
+@property --acento {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #1c2c55;
+}
 
+@layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
 
   body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #0f0f0f;
-    color: #ffffff;
+    @apply bg-nevoa font-sans text-[1.0625rem] leading-relaxed text-tinta antialiased;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--acento) 22%, white);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--acento);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  /* Títulos na largura expandida da Archivo */
+  .titulo {
+    font-stretch: 125%;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1;
+  }
+
+  .titulo-medio {
+    font-stretch: 112%;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.9375rem] font-semibold transition-colors duration-200;
+  }
+
+  .btn-primario {
+    @apply btn bg-tinta text-papel hover:bg-acento;
+  }
+
+  .btn-acento {
+    @apply btn bg-acento text-papel hover:bg-tinta;
+  }
+
+  .btn-contorno {
+    @apply btn border border-linha bg-papel text-tinta hover:border-tinta;
   }
 }
 
 @layer utilities {
-  .scroll-animate {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  .transicao-acento {
+    transition: --acento 0.6s ease;
   }
 
-  .animate-fade-in-up {
+  .sem-barra {
+    scrollbar-width: none;
+  }
+  .sem-barra::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes progresso {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
   }
 }
