@@ -14,7 +14,7 @@ export default function Sobre() {
         <h2 className="titulo text-4xl sm:text-5xl">Sobre mim</h2>
         <div className="mt-6 max-w-texto space-y-4 text-lg text-grafite">
           <p>
-            Sou de Blumenau (SC) e trabalho com desenvolvimento de sistemas desde 2021. Comecei em estágios e projetos
+            Tenho 25 anos, sou de Blumenau (SC) e trabalho com desenvolvimento de sistemas desde 2021. Comecei em estágios e projetos
             corporativos e hoje construo sistemas completos para pequenos negócios: do banco de dados à tela, com
             publicação e suporte.
           </p>

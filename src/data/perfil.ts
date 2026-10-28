@@ -44,12 +44,6 @@ export const experiencias: Experiencia[] = [
   },
 ];
 
-export const formacao = {
-  curso: 'Análise e Desenvolvimento de Sistemas',
-  instituicao: 'Uniasselvi',
-  periodo: 'desde ago. 2024 (cursando)',
-};
-
 // Cada tecnologia aponta para onde foi usada: projetos (ids) e/ou experiências.
 export interface ItemStack {
   nome: string;

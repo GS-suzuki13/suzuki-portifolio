@@ -1,5 +1,4 @@
-import { GraduationCap } from 'lucide-react';
-import { experiencias, formacao } from '../data/perfil';
+import { experiencias } from '../data/perfil';
 
 export default function Experiencia() {
   return (
@@ -10,16 +9,6 @@ export default function Experiencia() {
           <p className="mt-4 max-w-sm text-lg text-grafite">
             De estágios em sistemas corporativos a produtos completos publicados para clientes.
           </p>
-
-          <div className="mt-10 flex gap-4 rounded-2xl bg-nevoa p-5">
-            <GraduationCap className="mt-0.5 h-6 w-6 shrink-0" aria-hidden="true" />
-            <div>
-              <p className="font-semibold">{formacao.curso}</p>
-              <p className="text-grafite">
-                {formacao.instituicao}, {formacao.periodo}
-              </p>
-            </div>
-          </div>
         </div>
 
         <ol className="relative border-l-2 border-linha">
