@@ -1,6 +1,6 @@
 export const contato = {
-  whatsapp: 'https://wa.me/5547997609807',
-  whatsappTexto: '(47) 99760-9807',
+  whatsapp: 'https://wa.me/5547984655927',
+  whatsappTexto: '(47) 98465-5927',
   email: 'gustavosuzuki3@gmail.com',
   linkedin: 'https://www.linkedin.com/in/gustavo-suzuki-858189163/',
   github: 'https://github.com/GS-suzuki13',
