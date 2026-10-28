@@ -37,12 +37,6 @@ export const experiencias: Experiencia[] = [
       'Sistemas web para automatizar processos contábeis: leitura de arquivos, gestão de tarefas e acompanhamento de propostas.',
   },
   {
-    periodo: 'mar. 2022 a nov. 2022',
-    cargo: 'Estagiário desenvolvedor',
-    empresa: 'AmbevTech',
-    descricao: 'Desenvolvimento de sistemas web.',
-  },
-  {
     periodo: 'out. 2021 a fev. 2022',
     cargo: 'Analista desenvolvedor',
     empresa: 'Work Data Business',
